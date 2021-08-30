@@ -1,7 +1,11 @@
 #!/usr/bin/env ruby 
 
-require_relative '../lib/garden.rb'
-require_relative '../lib/plant.rb'
+# These two rr statements are now in the config folder
+# require_relative '../lib/garden.rb'
+# require_relative '../lib/plant.rb'
+
+# So now we just need to rr the config file
+require_relative '../config/environment'
 
 lawn = Garden.new(name: 'Front Lawn')
 
